@@ -2,7 +2,7 @@ var express = require('express');
 var buf = require('buffer');
 var fs = require('fs');
 
-var buf = new Buffer(2000000000000);
+var buf = new Buffer(20000);
 
 
 var app = express.createServer(express.logger());
